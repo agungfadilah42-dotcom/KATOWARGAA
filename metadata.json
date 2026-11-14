@@ -1,0 +1,8 @@
+{
+  "name": "KATO JAMBI",
+  "description": "Kanal Aspirasi dan Tanggapan Online Jambi - Platform pelaporan fasilitas umum dan pemantauan penanganan Kota Jambi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

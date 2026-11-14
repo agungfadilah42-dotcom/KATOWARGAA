@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="katoPinGradient" x1="50" y1="60" x2="190" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#0D9488" />
+      <stop offset="45%" stopColor="#0F766E" />
+      <stop offset="100%" stopColor="#065F46" />
+    </linearGradient>
+    <linearGradient id="katoGoldGradient" x1="70" y1="15" x2="170" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FBBF24" />
+      <stop offset="50%" stopColor="#F59E0B" />
+      <stop offset="100%" stopColor="#D97706" />
+    </linearGradient>
+    <linearGradient id="katoGreenWave" x1="30" y1="260" x2="210" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#34D399" />
+      <stop offset="60%" stopColor="#10B981" />
+      <stop offset="100%" stopColor="#059669" />
+    </linearGradient>
+    <linearGradient id="katoGoldWave" x1="60" y1="280" x2="200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#FCD34D" />
+      <stop offset="100%" stopColor="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Group 1: Emblem on Left (Center around X=120, Y=170) -->
+  <g transform="translate(10, 0)">
+    <!-- Skyline & Gentala Arasy Tower -->
+    <g fill="#0F3B56">
+      <rect x="160" y="150" width="16" height="85" rx="3" opacity="0.9" />
+      <rect x="180" y="135" width="20" height="100" rx="3" />
+      <rect x="204" y="155" width="16" height="80" rx="3" opacity="0.85" />
+      <!-- Tower Spire -->
+      <path d="M180 135 L190 90 L200 135 Z" />
+      <rect x="188" y="75" width="4" height="18" rx="1" />
+      <circle cx="190" cy="73" r="3.5" />
+      <path d="M182 102 L190 95 L198 102 L190 109 Z" />
+    </g>
+
+    <!-- Golden Tanjak Crown -->
+    <g>
+      <path d="M120 15 L127 28 L120 37 L113 28 Z" fill="url(#katoGoldGradient)" />
+      <rect x="118" y="35" width="4" height="12" fill="#D97706" />
+      <!-- Pagoda Tier 1 -->
+      <path d="M120 37 L140 55 C130 55 125 57 120 62 C115 57 110 55 100 55 Z" fill="url(#katoGoldGradient)" />
+      <!-- Pagoda Tier 2 Eaves -->
+      <path d="M120 55 L168 90 C150 86 140 93 120 97 C100 93 90 86 72 90 L120 55 Z" fill="url(#katoGoldGradient)" />
+      <!-- Crown Base -->
+      <path d="M72 90 C92 82 106 94 120 96 C134 94 148 82 168 90 C156 104 132 107 120 107 C108 107 84 104 72 90 Z" fill="#D97706" />
+    </g>
+
+    <!-- Map Pin Body -->
+    <path d="M120 85 C75 85 45 116 45 161 C45 195 76 228 120 270 C164 228 195 195 195 161 C195 116 165 85 120 85 Z" fill="url(#katoPinGradient)" />
+    <path d="M120 96 C84 96 57 123 57 159 C57 188 84 217 120 252 C156 217 183 188 183 159 C183 123 156 96 120 96 Z" fill="#0D9488" opacity="0.25" />
+
+    <!-- Speech Bubble inside Pin -->
+    <path d="M120 112 C92 112 70 133 70 159 C70 171 76 182 85 190 L77 210 L99 202 C105 204 112 206 120 206 C148 206 170 185 170 159 C170 133 148 112 120 112 Z" fill="#FFFFFF" />
+    <circle cx="100" cy="158" r="7.5" fill="#0F3B56" />
+    <circle cx="120" cy="158" r="7.5" fill="#0F3B56" />
+    <circle cx="140" cy="158" r="7.5" fill="#0F3B56" />
+
+    <!-- Batanghari River Waves -->
+    <path d="M30 250 C60 220 95 262 145 264 C181 266 220 244 240 240 C217 258 177 280 136 276 C91 271 57 259 30 250 Z" fill="url(#katoGreenWave)" />
+    <path d="M62 270 C90 264 113 284 153 286 C182 288 208 273 224 268 C203 284 172 300 140 295 C108 290 85 281 62 270 Z" fill="url(#katoGoldWave)" />
+  </g>
+
+  <!-- Group 2: Typography on Right -->
+  <g transform="translate(250, 0)">
+    <!-- KATO -->
+    <g transform="translate(0, 155)">
+      <!-- K letter with green accent swoosh -->
+      <path d="M0 0 L18 0 L18 64 L0 64 Z" fill="#0F3B56" />
+      <path d="M42 0 L18 34 L36 34 L58 0 Z" fill="#16A34A" />
+      <path d="M22 30 L48 64 L26 64 L10 40 Z" fill="#0F3B56" />
+
+      <!-- A -->
+      <path d="M62 64 L79 0 L97 0 L114 64 L96 64 L92 48 L84 48 L80 64 Z M88 18 L85 34 L91 34 Z" fill="#0F3B56" />
+
+      <!-- T -->
+      <path d="M118 0 L160 0 L160 16 L148 16 L148 64 L130 64 L130 16 L118 16 Z" fill="#0F3B56" />
+
+      <!-- O -->
+      <path d="M192 0 C212 0 226 14 226 32 C226 50 212 64 192 64 C172 64 158 50 158 32 C158 14 172 0 192 0 Z M192 16 C183 16 176 23 176 32 C176 41 183 48 192 48 C201 48 208 41 208 32 C208 23 201 16 192 16 Z" fill="#0F3B56" />
+    </g>
+
+    <!-- WARGA -->
+    <text x="0" y="238" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="50" font-weight="900" fill="#00796B" letter-spacing="-0.5">WARGA</text>
+
+    <!-- Subtitle: Kanal Aspirasi dan Tanggapan Online Warga -->
+    <text x="0" y="264" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="700" fill="#0F3B56" letter-spacing="0.2">
+      Kanal Aspirasi dan Tanggapan Online Warga
+    </text>
+
+    <!-- Tagline: — Suaro Warga, Solusi Bersamo. — -->
+    <g transform="translate(0, 286)">
+      <line x1="0" y1="-5" x2="28" y2="-5" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+      <text x="36" y="0" font-family="'Plus Jakarta Sans', system-ui, serif" font-size="14.5" font-weight="700" font-style="italic" fill="#00796B">
+        Suaro Warga, Solusi Bersamo.
+      </text>
+      <line x1="210" y1="-5" x2="238" y2="-5" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
